@@ -1,0 +1,152 @@
+body {
+    background-color: black;
+    user-select: none;
+}
+
+.imgstyle {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    margin: 6.8%;
+    margin-top: 11%;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.2s ease;
+    border-radius: 32px;
+}
+
+.headerstyle {
+    color: white;
+    margin: auto;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 70px;
+    font-family: monospace;
+    position: absolute;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.savebuttonstyle {
+    font-family: monospace;
+    background-color: rgb(237, 100, 155);
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    border-color: white;
+    position: absolute;
+    margin-left: 12.5%;
+    margin-top: 40%;
+    width: 10%;
+    height: 6%;
+    font-size: x-large;
+    transition: all 0.2s ease;
+}
+
+.backgroundforupgrades {
+    border-radius: 4px;
+    position: absolute;
+    background-color: rgb(114, 27, 91);
+    width: 60%;
+    height: 98%;
+    margin-left: 39%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.note {
+    color: white;
+    font-family: monospace;
+    position: absolute;
+    margin-top: 45%;
+    transition: all 0.6s ease;
+    opacity: 0;
+}
+
+.upgradeclicks {
+    position: absolute;
+    background-color: rgb(237, 100, 155);
+    border-radius: 8px;
+    border-color: white;
+    margin: 2%;
+    width: 96%;
+    height: 15%;
+    cursor: pointer;
+}
+
+.titleupgrade {
+    font-size: xxx-large;
+    text-align: left;
+    font-family: monospace;
+    color: white;
+}
+
+.upgradeimg1 {
+    margin: -10.5%;
+    margin-left: 39%;
+    position: absolute;
+    border-radius: 8px;
+    width: 10%;
+}
+
+.cog {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    width: 3%;
+    transition: all 0.2s ease;
+}
+
+.wipebuttonstyle {
+    font-family: monospace;
+    background-color: rgb(198, 100, 237);
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    border-color: white;
+    position: absolute;
+    margin-left: 13.5%;
+    margin-top: 43.5%;
+    width: 8%;
+    height: 5%;
+    font-size: x-large;
+    transition: all 0.2s ease;
+}
+
+.settingsdiv {
+    display: none;
+    visibility: hidden;
+    position: absolute;
+    background-color: rgb(114, 27, 91);
+    border-radius: 8px;
+    margin: 4%;
+    width: 30%;
+    height: 65%;
+}
+
+.upgradeclicks2 {
+    position: absolute;
+    background-color: rgb(237, 100, 155);
+    border-radius: 8px;
+    border-color: white;
+    margin: 2%;
+    margin-top: 15%;
+    width: 96%;
+    height: 15%;
+    cursor: pointer;
+}
+
+.titleupgrade2 {
+    font-size: xxx-large;
+    text-align: left;
+    font-family: monospace;
+    color: white;
+}
+
+.upgradeimg2 {
+    margin: -10.5%;
+    margin-left: 39%;
+    position: absolute;
+    border-radius: 8px;
+    width: 10%;
+}
