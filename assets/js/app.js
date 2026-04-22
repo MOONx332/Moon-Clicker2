@@ -87,6 +87,8 @@ function wipedata() {
     localStorage.removeItem("Moons")
     localStorage.removeItem("Multi")
     localStorage.removeItem("Price1")
+    localStorage.removeItem("PerSec")
+    localStorage.removeItem("Price2")
 }
 
 function hover() {
@@ -209,7 +211,7 @@ function ucbclick() {
         buysound.currentTime = 0
         moons = moons - price1
         multi = multi * 2
-        price1 = price1 * 3
+        price1 = price1 * 2
         buysound.play()
     } else {
         errorsound.currentTime = 0
@@ -228,7 +230,7 @@ function ucbclick2() {
             persec = persec * 2
         }
 
-        price2 = price2 * 3
+        price2 = price2 * 2
         buysound.play()
     } else {
         errorsound.currentTime = 0
