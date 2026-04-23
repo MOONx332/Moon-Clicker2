@@ -46,6 +46,10 @@ let ucbt2 = document.getElementById("tucb2")
 ucb.addEventListener("click", ucbclick)
 ucb2.addEventListener("click", ucbclick2)
 
+document.addEventListener("keypress", keypressany)
+document.addEventListener("keydown", keydownany)
+document.addEventListener("keyup", keyupany)
+
 let save = Number(localStorage.getItem("Moons")) || 0;
 let savemulti = Number(localStorage.getItem("Multi")) || 1;
 let savepersec = Number(localStorage.getItem("PerSec")) || 0;
@@ -89,6 +93,24 @@ function wipedata() {
     localStorage.removeItem("Price1")
     localStorage.removeItem("PerSec")
     localStorage.removeItem("Price2")
+}
+
+function keypressany() {
+    clicksound.currentTime = 0
+    moons = moons + multi
+    clicksound.play()
+}
+
+function keydownany() {
+    img.style.scale = "1"
+    img.style.transform = "rotate(3deg)"
+    img.src = "assets/img/moonopen.png"
+}
+
+function keyupany() {
+    img.style.scale = "1.05"
+    img.style.transform = "rotate(-2deg)"
+    img.src = "assets/img/moon.png"
 }
 
 function hover() {
