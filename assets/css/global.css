@@ -18,12 +18,13 @@ body {
 .headerstyle {
     color: white;
     text-align: center;
-    left: 14%;
+    left: 9.5%; /*This was 14%*/
     top: 10%;
+    width: 20%;
     font-family: monospace;
     position: absolute;
     text-align: center;
-    font-size: xxx-large;
+    font-size: 300%;
 }
 
 .savebuttonstyle {
@@ -109,7 +110,7 @@ body {
     top: 88%;
     width: 8%;
     height: 5%;
-    font-size: x-large;
+    font-size: 150%;
     transition: all 0.2s ease;
 }
 
@@ -150,4 +151,8 @@ body {
     position: absolute;
     border-radius: 8px;
     width: 10%;
+}
+
+.persecstyle {
+    color: white;
 }

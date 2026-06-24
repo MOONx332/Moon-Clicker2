@@ -104,13 +104,13 @@ function keypressany() {
 function keydownany() {
     img.style.scale = "1"
     img.style.transform = "rotate(3deg)"
-    img.src = "assets/img/moonopen.png"
+    img.src = "assets/img/moonv2open.png"
 }
 
 function keyupany() {
     img.style.scale = "1.05"
     img.style.transform = "rotate(-2deg)"
-    img.src = "assets/img/moon.png"
+    img.src = "assets/img/moonv2.png"
 }
 
 function hover() {
@@ -132,13 +132,13 @@ function click() {
 function down() {
     img.style.scale = "1"
     img.style.transform = "rotate(3deg)"
-    img.src = "assets/img/moonopen.png"
+    img.src = "assets/img/moonv2open.png"
 }
 
 function up() {
     img.style.scale = "1.05"
     img.style.transform = "rotate(-2deg)"
-    img.src = "assets/img/moon.png"
+    img.src = "assets/img/moonv2.png"
 }
 
 function saveevent() {
